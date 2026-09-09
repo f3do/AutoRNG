@@ -1,4 +1,4 @@
---shadows rng gui | join the discord for more free scripts
+--shadows rng gui | join the discord for more free scripts .gg/49UZyd92bH
 
 local cloneref = cloneref or function(object) return object end
 local Players = cloneref(game:GetService("Players"))
@@ -12,9 +12,7 @@ local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 local env = type(getgenv) == "function" and getgenv() or _G
 
---==================================================
 -- CONFIG
---==================================================
 
 local CARPET_TOOLS = {
 	["Flying Carpet"] = true,
@@ -128,9 +126,7 @@ local function saveConfig()
 	end)
 end
 
---==================================================
 -- WHITELIST
---==================================================
 
 local function normalizeKey(value)
 	return tostring(value or "")
@@ -185,9 +181,7 @@ local function isBrainrotEnabled(name)
 	return whitelistSet[normalizeKey(name)] == true
 end
 
---==================================================
 -- STATE
---==================================================
 
 local state = {
 	enabled = false,
@@ -199,9 +193,7 @@ local state = {
 	connections = {}
 }
 
---==================================================
--- THEMES
---==================================================
+--THEMES
 
 local THEMES = {
 
