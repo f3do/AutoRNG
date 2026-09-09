@@ -1,5 +1,3 @@
-Change all branding “ambitious” to SHADOW
-
 local cloneref = cloneref or function(object) return object end
 local Players = cloneref(game:GetService("Players"))
 local RunService = cloneref(game:GetService("RunService"))
